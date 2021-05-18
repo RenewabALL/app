@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RenewabALL</title>
+    <script>
+        function change0(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Philippines_Cons_Linechart.PNG>"
+        }
+        function change1(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Philippines_Esales_Cons.PNG>"
+        }
+        function change2(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Philippines_Cons_Boxplot.PNG>"
+        }
+        function change3(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Philippines_Genr_Linechart.PNG>"
+        }
+        function change4(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Philippines_Genr_Boxplot.PNG>"
+        }
+    </script>
+</head>
+<body>
+<div class="text-center" id="box">
+    <header>
+        <h1>RenewabALL</h1>
+    </header>
+    <a>Click a region or a button below to explore RE in Philippines!</a><br/>
+    <img src="https://www.touropia.com/gfx/b/2019/08/philippines.png" alt="Workplace" usemap="#workmap">
+    <map name="workmap">
+        <area shape="rect" coords="200,0,600,300" alt="Luzon" href="RenewabALL_Luzon.html">
+        <area shape="rect" coords="200,350,600,450" alt="Visayas" href="RenewabALL_Visayas.html">
+        <area shape="rect" coords="200,475,600,600" alt="Mindanao" href="RenewabALL_Mindanao.html">
+    </map>
+    <div>
+    <a href="templates/RenewabALL_predict_C.html">Predict Power Generation Now!</a>
+    </div>
+    <a onclick="change0()"><button>See Overall Electricity Consumption</button></a>
+    <a onclick="change1()"><button>See Overall Electricity Sales Consumption</button></a>
+    <a onclick="change2()"><button>See Electricity Consumption Statistics</button></a>
+    <a onclick="change3()"><button>See Overall Power Generation</button></a>
+    <a onclick="change4()"><button>See Power Generation Statistics</button></a>
+    <div id="changing_image"></div>
+    
+</body>
+</html>
