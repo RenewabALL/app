@@ -19,6 +19,14 @@
         function change4(){
             document.getElementById("changing_image").innerHTML="<img src=2_Philippines_Genr_Boxplot.png>"
         }
+        function change5(){
+            document.getElementById("predictions").innerHTML="<select id=ddselect onchange=ddselect()><options>2021-01</option></select><input type=text id=txtvalue/>"
+        }
+        function ddselect(){
+            var d = document.getElementById("ddselect")
+            var displaytext = d.options[d.selectedIndex].text
+            document.getElementByID("txtvalue").value = displaytext
+        }
     </script>
 </head>
 <body>
@@ -34,8 +42,9 @@
         <area shape="rect" coords="200,475,600,600" alt="Mindanao" href="RenewabALL_Mindanao.html">
     </map>
     <div>
-    <a href="templates/RenewabALL_predict_C.html"><button>Predict Peak Demand Now!</button></a>
+    <a onclick="change5()"><button>Predict Peak Demand Now!</button></a>
     </div>
+    <div id="predictions"></div>
     <a onclick="change0()"><button>See Overall Electricity Consumption</button></a>
     <a onclick="change1()"><button>See Overall Electricity Sales Consumption</button></a>
     <a onclick="change2()"><button>See Electricity Consumption Statistics</button></a>
