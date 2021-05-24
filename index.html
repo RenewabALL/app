@@ -19,8 +19,8 @@
         function change4(){
             document.getElementById("changing_image").innerHTML="<img src=2_Philippines_Genr_Boxplot.png>"
         }
-        function change5(){
-            document.getElementById("predictions").innerHTML="<select id=ddselect onchange=ddselect()><option>2021-01</option></select><input type=text id=txtvalue/>"
+        function ClearFields() {
+            date.value = ""
         }
     </script>
     <script src="https://cdn.jsdelivr.net/npm/danfojs@0.2.4/lib/bundle.min.js"></script>
@@ -296,7 +296,7 @@
     <div>
         <input type="text" id="date" />
         <button onclick="home()">Predict Peak Demand Now!</button>
-        <input type="reset" value="Reset">
+        <button onclick="ClearFields()">Reset</button>
     </div>
     Luzon:
     <a id="predLuzon">0</a>
