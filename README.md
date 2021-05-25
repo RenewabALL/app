@@ -1,4 +1,6 @@
 # app
+Despite the abundance of renewable energy (RE) data in the Philippines, the difficulty of data collection wastes their value. Hence, we aim to create RenewabALL, a 2D city-themed app, to serve both as a hub for everyone interested in RE to interact with and support each other, and as a tool to help them make data-driven decisions for free. So far, we have 21 geospatial and 45 metric visualizations, as well as 3 time-series models, produced and integrated into our proto-site. Future updates will include an open-source RE data community with a point-earning system.
+
 If you will benefit from our code, please cite us! Thank you and enjoy!
 
 Image references:
@@ -29,5 +31,6 @@ Main packages/languages used:
 4. Sktime for time-series modeling
 5. Danfo.js for integration of predictions to the app.
  
-Data Reference:
+Data References:
 https://www.doe.gov.ph/energy-statistics/philippine-power-statistics?ckattempt=2
+https://www.doe.gov.ph/list-existing-power-plants?ckattempt=1
