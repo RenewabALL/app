@@ -29,3 +29,5 @@ Main packages/languages used:
 4. Sktime for time-series modeling
 5. Danfo.js for integration of predictions to the app.
  
+Data Reference:
+https://www.doe.gov.ph/energy-statistics/philippine-power-statistics?ckattempt=2
