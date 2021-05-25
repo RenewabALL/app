@@ -3,7 +3,7 @@ Members: Carl Terence Valdellon, Earl John Crusina, Mark Louise Badua
 
 Despite the abundance of renewable energy (RE) data in the Philippines, the difficulty of data collection wastes their value. Hence, we aim to create RenewabALL, a 2D city-themed app, to serve both as a hub for everyone interested in RE to interact with and support each other, and as a tool to help them make data-driven decisions for free. So far, we have 21 geospatial and 45 metric visualizations, as well as 3 time-series models, produced and integrated into our proto-site. Future updates will include an open-source RE data community with a point-earning system.
 
-If you will benefit from our code, please cite us! Thank you and enjoy!
+If you will use our work for your projects, please cite us! Thank you and enjoy!
 
 Image references:
 1. https://en.wikipedia.org/wiki/Boracay#/media/File:Ph_locator_aklan_boracay.png
