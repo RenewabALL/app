@@ -34,5 +34,5 @@ Main packages/languages used:
 5. Danfo.js for integration of predictions to the app.
  
 Data References:
-https://www.doe.gov.ph/energy-statistics/philippine-power-statistics?ckattempt=2
-https://www.doe.gov.ph/list-existing-power-plants?ckattempt=1
+1. https://www.doe.gov.ph/energy-statistics/philippine-power-statistics?ckattempt=2
+2. https://www.doe.gov.ph/list-existing-power-plants?ckattempt=1
