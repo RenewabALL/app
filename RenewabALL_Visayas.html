@@ -8,70 +8,78 @@
         body {text-align: center;}
     </style>
     <meta charset="UTF-8">
-    <title>RenewabALL Negros</title>
+    <title>RenewabALL Visayas</title>
     <script>
-        function change0(){
-            document.getElementById("changing_image").innerHTML="<img src=negros%20occ.png usemap=#workmap0>" +
-                "<img src=negros%20orie.png usemap=#workmap1>"
-        }
         function change2(){
-            document.getElementById("changing_image").innerHTML="<img src=Negros%20Occidental%20Solar.png usemap=#workmap6>" +
-                "<img src=Negros%20Oriental%20Solar.png usemap=#workmap2>"
+            document.getElementById("changing_image").innerHTML="<img src=1%20Solar%20Startup%200.2%20Visayas.PNG>"
         }
-        function change3() {
-            document.getElementById("changing_image").innerHTML = "<img src=negros%20occ.png>" +
-                "<img src=Negros%20Oriental%20Geothermal.jpg usemap=#workmap3>"
+        function change0(){
+            document.getElementById("changing_image").innerHTML="<img src=1%20Solar%20Startup%201.9%20RE%20vs%20non%20RE.PNG>"
         }
-        function change4() {
-            document.getElementById("changing_image").innerHTML = "<img src=Negros%20Occidental%20Biomass.png usemap=#workmap8>"+
-                "<img src=Negros%20Oriental%20Biomass.png usemap=#workmap4>"
+        function change1(){
+            document.getElementById("changing_image").innerHTML="<img src=1%20Solar%20Startup%201.12RE%20vs%20non%20RE.PNG>"
         }
-        function change5() {
-            document.getElementById("changing_image").innerHTML = "<img src=Negros%20Occidental%20Oil.jpg usemap=#workmap10>"+
-                "<img src=negros%20orie.png>"
+        function change3(){
+            document.getElementById("changing_image").innerHTML="<img src=1%20Solar%20Startup%201.2%20RE%20vs%20non%20RE.PNG>"
+        }
+        function change4(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Cons_Linechart.png>"
+        }
+        function change5(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Esales_Cons.png>"
+        }
+        function change6(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Cons_Boxplot.png>"
+        }
+        function change7(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Genr_Linechart.png>"
+        }
+        function change8(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Genr_Boxplot.png>"
+        }
+        function change9(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Inscap_NRE_Linechart.png>"
+        }
+        function change10(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Depcap_NRE_Linechart.png>"
+        }
+        function change11(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Inscap_RE.png>"
+        }
+        function change12(){
+            document.getElementById("changing_image").innerHTML="<img src=2_Visayas_Depcap_RE.png>"
         }
     </script>
 </head>
 <body>
-    <div class="text-center">
+    <div class="text-center" id="box">
     <header>
-        <h1>RenewabALL Negros</h1>
+        <h1>RenewabALL Visayas</h1>
     </header>
+    <a>Click a region below to explore RE in Visayas!</a><br/>
+    <img src="https://expat2phils.files.wordpress.com/2008/04/600px-visayas_regions.png?w=600&zoom=2" usemap="#workmap">
     </div>
-    <div class="text-center" id="changing_image">
-    <img src="negros%20occ.png"><img src="negros%20orie.png">
-    </div>
-    <a onclick="change0()"><button>Back</button></a>
-    <a onclick="change2()"><button>Solar</button></a>
-    <a onclick="change3()"><button>Geothermal</button></a>
-    <a onclick="change4()"><button>Biomass</button></a>
-    <a onclick="change5()"><button>Oil</button></a>
-    <div>
-        <img src="1%20Solar%20Startup%201.5%20RE%20vs%20non%20RE.png">
-    </div>
-    <map name="workmap1">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
+    <map name="workmap">
+        <area shape="rect" coords="500,0,600,200" alt="Leyte-Samar" href="RenewabALL_Leyte_Samar.html">
+        <area shape="rect" coords="400,110,425,250" alt="Negros" href="RenewabALL_Negros.html">
+        <area shape="rect" coords="455,90,480,200" alt="Cebu" href="RenewabALL_Cebu.html">
+        <area shape="circle" coords="480,200,10" alt="Bohol" href="RenewabALL_Bohol.html">
+        <area shape="circle" coords="350,100,50" alt="Bohol" href="RenewabALL_Panay.html">
     </map>
-    <map name="workmap2">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
-    </map>
-    <map name="workmap3">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
-    </map>
-    <map name="workmap4">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
-    </map>
-    <map name="workmap0">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
-    </map>
-    <map name="workmap6">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
-    </map>
-    <map name="workmap7">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
-    </map>
-    <map name="workmap8">
-        <area shape="rect" coords="200,0,300,200" alt="Leyte-Samar" href="https://www.energy.com.ph/proposed-green-bond-issuances/">
-    </map>
+    <br/><a>Click a button below to learn more about RE in Visayas!</a><br/>
+    <a onclick="change4()"><button>See Electricity Consumption</button></a>
+    <a onclick="change5()"><button>See Electricity Sales Consumption</button></a>
+    <a onclick="change6()"><button>See Electricity Consumption through the years</button></a>
+    <a onclick="change7()"><button>See Power Generation</button></a>
+    <a onclick="change8()"><button>See Power Generation through the years</button></a>
+    <a onclick="change9()"><button>See Installed Capacity of Non RE</button></a>
+    <a onclick="change10()"><button>See Dependable Capacity of Non RE</button></a>
+    <a onclick="change11()"><button>See Installed Capacity of RE</button></a>
+    <a onclick="change12()"><button>See Dependable Capacity of RE</button></a>
+    <a onclick="change2()"><button>See Visayas Generation vs Consumption</button></a>
+    <a onclick="change0()"><button>See Solar Stats</button></a>
+    <a onclick="change1()"><button>See All Plant Subtype Stats</button></a>
+    <a onclick="change3()"><button>See non RE vs RE</button></a>
+    <div id="changing_image"></div>
 </body>
 </html>
